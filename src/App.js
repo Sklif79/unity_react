@@ -1,26 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
+import Car from "./Car/Car";
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className='wrapper'>
+            <h1>Hello, motherfucker!</h1>
+            <Car name={'Ford'} year={2020}>
+                <p style={{color: 'red', textTransform: 'uppercase'}}>color</p>
+            </Car>
+            <Car name={'Audi'} year={1989}>
+                <p style={{color: 'green', textTransform: 'uppercase'}}>color</p>
+            </Car>
+        </div>
+    );
 }
 
 export default App;
