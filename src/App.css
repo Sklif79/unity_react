@@ -2,3 +2,21 @@
   margin: 0 auto;
   max-width: 1200px;
 }
+
+.input {
+  margin: 10px;
+  padding: 5px 10px;
+}
+
+.input.green {
+  border: 1px solid green;
+}
+
+.input.red {
+  border: 1px solid red;
+}
+
+.input.bold {
+  font-weight: bold;
+  border: 2px solid green;
+}
